@@ -20,7 +20,8 @@ div#navigational-fixed-toolbar {
         width: 100px;
         span {
             vertical-align: middle;
-        } a {
+        }
+        a {
             background-color: #000;
             text-align: center;
             padding: 12px 5px 5px 5px;
@@ -51,10 +52,15 @@ div#navigational-toolbar {
     h1 {
         text-align: center;
     }
+    a:hover {
+        text-decoration: none;
+        opacity: 1;
+    }
     a {
         text-align: center;
         margin: 15px 10px;
         display: block;
+        color: #000;
         div {
             display: inline-block;
             text-align: center;
@@ -93,6 +99,15 @@ div#navigational-toolbar {
 }
 
 div#navigational-content {
+    a:hover {
+        opacity: 0.5;
+        cursor: pointer;
+        text-decoration: none;
+        opacity: 1;
+    }
+    a {
+        color: #000;
+    }
     width: 100%;
     padding-bottom: 75px;
     a.section-wrapper {
@@ -127,6 +142,65 @@ div#navigational-content {
                 margin: 15px 0px;
                 a {
                     color: #6abbf9;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    div#navigational-toolbar {
+        h1,
+        span.desc {
+            display: none;
+        }
+        a {
+            div {
+                a {
+                    padding-top: 16px;
+                    width: 100px;
+                    height: 100px;
+                }
+                span {
+                    white-space: nowrap;
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    div#navigational-content {
+        padding-bottom: 100px;
+        a.section-wrapper::before {
+            content: '';
+            display: block;
+            margin: 0px auto;
+            width: 90%;
+            border-top: solid thick #ddd;
+        }
+        a.section-wrapper {
+            display: block;
+            div.content-wrapper {
+                display: block;
+                border: none;
+                padding: 0px 25px;
+            }
+            div.icon-wrapper {
+                width: 90%;
+                margin: 15px auto;
+                div.icon {
+                    height: 128px;
+                    font-size: 1.5em;
+                    width: 100%;
+                    max-width: none;
+                    white-space: nowrap;
+                    img {
+                        width: 33%;
+                        float: left;
+                        margin-right: 15px;
+                    }
                 }
             }
         }

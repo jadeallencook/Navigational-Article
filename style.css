@@ -43,10 +43,14 @@ div#navigational-fixed-toolbar {
 
 div#navigational-toolbar h1 {
   text-align: center; }
+div#navigational-toolbar a:hover {
+  text-decoration: none;
+  opacity: 1; }
 div#navigational-toolbar a {
   text-align: center;
   margin: 15px 10px;
-  display: block; }
+  display: block;
+  color: #000; }
   div#navigational-toolbar a div {
     display: inline-block;
     text-align: center;
@@ -79,6 +83,13 @@ div#navigational-toolbar span.desc {
 div#navigational-content {
   width: 100%;
   padding-bottom: 75px; }
+  div#navigational-content a:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 1; }
+  div#navigational-content a {
+    color: #000; }
   div#navigational-content a.section-wrapper {
     display: grid;
     grid-template-columns: 1fr 4fr;
@@ -107,5 +118,46 @@ div#navigational-content {
         margin: 15px 0px; }
         div#navigational-content a.section-wrapper div.content-wrapper p a {
           color: #6abbf9; }
+
+@media only screen and (max-device-width: 480px) {
+  div#navigational-toolbar h1,
+  div#navigational-toolbar span.desc {
+    display: none; }
+  div#navigational-toolbar a div a {
+    padding-top: 16px;
+    width: 100px;
+    height: 100px; }
+  div#navigational-toolbar a div span {
+    white-space: nowrap; }
+    div#navigational-toolbar a div span br {
+      display: none; }
+
+  div#navigational-content {
+    padding-bottom: 100px; }
+    div#navigational-content a.section-wrapper::before {
+      content: '';
+      display: block;
+      margin: 0px auto;
+      width: 90%;
+      border-top: solid thick #ddd; }
+    div#navigational-content a.section-wrapper {
+      display: block; }
+      div#navigational-content a.section-wrapper div.content-wrapper {
+        display: block;
+        border: none;
+        padding: 0px 25px; }
+      div#navigational-content a.section-wrapper div.icon-wrapper {
+        width: 90%;
+        margin: 15px auto; }
+        div#navigational-content a.section-wrapper div.icon-wrapper div.icon {
+          height: 128px;
+          font-size: 1.5em;
+          width: 100%;
+          max-width: none;
+          white-space: nowrap; }
+          div#navigational-content a.section-wrapper div.icon-wrapper div.icon img {
+            width: 33%;
+            float: left;
+            margin-right: 15px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -45,7 +45,7 @@
                 previousLink = sections[current - 1].title.replace('<br />', '');
                 previousImage = sections[num].logo;
             }
-            if (current === sections.length - 1) {
+            if (current === sections.length) {
                 nextLink = sections[0].title.replace('<br />', '');
                 nextImage = sections[0].logo;
             } else {
@@ -94,9 +94,12 @@
                     titleElem.innerText = content.title;
                     pElem.appendChild(titleElem);
                     pElem.innerHTML += ' ' + content.text;
-                    if (content.linkText && content.linkLocation) {
-                        var link = '<a target="_blank" href="' + content.linkLocation + '">' + content.linkText + '</a>';
-                        pElem.innerHTML = pElem.innerHTML.replace(content.linkText, link);
+                    if (content.links && content.links.length > 0) {
+                        for (let z = 0; z < content.links.length; z++) {
+                            var link = content.links[z];
+                            var html = '<a target="_blank" href="' + link.location + '">' + link.text + '</a>';
+                            pElem.innerHTML = pElem.innerHTML.replace(link.text, html);
+                        }
                     }
                     contentElem.appendChild(pElem);
                 }
@@ -109,6 +112,9 @@
         addIconsToToolbar();
         addIconsToFixedToolbar();
         addSectionContent();
+
+        if (document.querySelector('footer .container')) document.querySelector('footer .container').style.zIndex = 0;
+
     });
 
 })();

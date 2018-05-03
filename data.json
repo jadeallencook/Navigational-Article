@@ -1,50 +1,436 @@
-[
-    {
-        "title": "My<br />Amet",
-        "logo": "http://via.placeholder.com/350x350",
-        "sections": [
-            {
-                "title": "Nullam quis risus eget urna mollis ornare vel eu leo.",
-                "text": "Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper.",
-                "linkText": "risus varius",
-                "linkLocation": "#"
-            }, {
-                "title": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
-                "text": "Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
-            }, {
-                "title": "Cras mattis consectetur purus sit amet fermentum.",
-                "text": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
-            }
-        ]
+[{
+    "title": "My<br />Community",
+    "logo": "https://www.deseretnews.com/media/misc/interactive/2018-new-laws/icons/community.svg",
+    "sections": [{
+        "title": "",
+        "text": "Fireworks will be legal only two days before and one day after July 4 and July 24 under HB38, cutting the two weeks they had been allowed to just eight days around those holidays and boosting the fine for use in restricted areas to $1,000.",
+        "links": [{
+            "text": "Fireworks will be legal",
+            "location": "https://www.deseretnews.com/article/900008421/house-passes-bill-reducing-fireworks-days-around-july-4-pioneer-day.html"
+        }, {
+            "text": "HB38",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0038.html"
+        }]
     }, {
-        "title": "My<br />Bibendum",
-        "logo": "http://via.placeholder.com/350x350",
-        "sections": [
-            {
-                "title": "Nullam quis risus eget urna mollis ornare vel eu leo.",
-                "text": "Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper."
-            }, {
-                "title": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
-                "text": "Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
-            }, {
-                "title": "Cras mattis consectetur purus sit amet fermentum.",
-                "text": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
-            }
-        ]
+        "title": "",
+        "text": "Utahns who are 17 years old will be able to register to vote in a primary election if they'll turn 18 on or before the date of the general election under HB281.",
+        "links": [{
+            "text": "17 years old will be able to register to vote",
+            "location": "https://www.deseretnews.com/article/900010332/bill-would-allow-17-year-olds-to-vote-in-utah-primary-elections.html"
+        }, {
+            "text": "HB281",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0281.html"
+        }]
     }, {
-        "title": "My<br />Adipiscing",
-        "logo": "http://via.placeholder.com/350x350",
-        "sections": [
-            {
-                "title": "Nullam quis risus eget urna mollis ornare vel eu leo.",
-                "text": "Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Vestibulum id ligula porta felis euismod semper."
-            }, {
-                "title": "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.",
-                "text": "Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
-            }, {
-                "title": "Cras mattis consectetur purus sit amet fermentum.",
-                "text": "Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras justo odio, dapibus ac facilisis in, egestas eget quam."
-            }
-        ]
-    }
-]
+        "title": "",
+        "text": "Personal delivery robots will be allowed to travel along sidewalks and cross streets at speeds of up to 10 mph under HB217 but must follow the same rules as pedestrians and yield to people in their paths.",
+        "links": [{
+            "text": "Personal delivery robots will be allowed to travel",
+            "location": "https://www.deseretnews.com/article/900009149/bill-seeks-to-modify-utah-traffic-code-to-permit-robots-to-roam-sidewalks.html"
+        }, {
+            "text": "HB217",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0217.html"
+        }]
+    }, {
+        "title": "",
+        "text": "A new \"Winter Sports Venue Grant Fund\" will be established by HB484 to provide grants to help pay for improvements to ready the state's winter sports venues from the 2002 Winter Games for a future Olympics.",
+        "links": [{
+            "text": "HB484",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0484.html"
+        }, {
+            "text": "ready the state's winter sports venues",
+            "location": "https://www.deseretnews.com/article/900012113/utah-lawmakers-rushing-through-bill-creating-grant-program-for-olympic-venue-projects.html"
+        }]
+    }, {
+        "title": "",
+        "text": "The name of the Utah Transit District will become Transit District of Utah because of SB136, which also replaces the agency's board and top bosses with a three-member, full-time management team, and allows counties to raise sales taxes for transportation needs.",
+        "links": [{
+            "text": "Transit District of Utah",
+            "location": "https://www.deseretnews.com/article/900012466/uta-changes-made-by-legislature-right-thing-to-do-lawmaker-says.html"
+        }, {
+            "text": "SB136",
+            "location": "https://le.utah.gov/~2018/bills/static/SB0136.html"
+        }]
+    }, {
+        "title": "",
+        "text": "A million dollars will be available for counties to use to combat intergenerational poverty from HB326, which establishes a pilot program in the Department of Workforce Services.",
+        "links": [{
+            "text": "combat intergenerational poverty",
+            "location": "https://www.deseretnews.com/article/900010509/committee-oks-bill-giving-dollar1m-for-counties-to-fight-intergenerational-poverty.html"
+        }, {
+            "text": "HB326",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0326.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Rural online job opportunities will be made available through a new $2.2 million pilot program created by HB327 that will be overseen by the Utah State University cooperative extension offices.",
+        "links": [{
+            "text": "Rural online job opportunities",
+            "location": "https://www.deseretnews.com/article/900010440/online-jobs-initiative-aims-to-stop-export-of-young-adults-from-rural-utah.html"
+        }, {
+            "text": "HB327",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0327.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Two bills will provide funding seen as critical for three new homeless resource centers planned for Salt Lake County. HB462 gives the centers $6.6 million in state money while SB235 sets aside $5.5 million to help pay for police and fire needs.",
+        "links": []
+    }]
+}, {
+    "title": "My<br />Health",
+    "logo": "https://www.deseretnews.com/media/misc/interactive/2018-new-laws/icons/health.svg",
+    "sections": [{
+        "title": "",
+        "text": "Opiate prescriptions will come with a warning label and pamphlet explaining the risk of dependency, alternative options for pain management, resources to deal with substance abuse issues and other information required by HB399.",
+        "links": [{
+            "text": "HB399.",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0399.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Women will be able to get birth control pills and other contraceptive devices directly from a pharmacist rather than going to a doctor under SB184, while HB12 will help low-income women pay for intrauterine devices and other family planning.",
+        "links": [{
+            "text": "Women will be able to get birth control pills",
+            "location": "https://www.deseretnews.com/article/900013544/new-utah-law-will-allow-women-get-birth-control-from-pharmacy.html"
+        }, {
+            "text": "SB184",
+            "location": "https://le.utah.gov/~2018/bills/static/SB0184.html"
+        }, {
+            "text": "HB12",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0012.html"
+        }]
+    }, {
+        "title": "",
+        "text": "The list of people who can donate an organ or other part of a dead person's body will expand from relatives to include \"an adult who exhibited special care and concern for the decedent\" under HB91.",
+        "links": [{
+            "text": "HB91",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0091.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Terminally ill patients will have the \"right to try\" medical cannabis treatments under HB195; and HB197 puts the state in charge of the cultivation, processing, and sale of cannabis.",
+        "links": [{
+            "text": "medical cannabis treatments ",
+            "location": "https://www.deseretnews.com/article/900012630/5-medicinal-cannabis-bills-pass-but-advocates-and-lawmakers-still-at-odds.html"
+        }, {
+            "text": "HB195;",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0195.html"
+        }, {
+            "text": "HB197",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0197.html"
+        }]
+    }, {
+        "title": "",
+        "text": "\"The Breastfeeding Protection Act\" spells out that mothers will be able to breastfeed their babies in public. HB196 also also \"prohibits discrimination based on pregnancy in places of public accommodation.\"",
+        "links": [{
+            "text": "mothers will be able to breastfeed",
+            "location": "https://www.deseretnews.com/article/900011406/committee-oks-bill-asserting-right-to-breast-feed-in-public.html"
+        }, {
+            "text": "HB196",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0196.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Utahns applying for or renewing a driver's license, as well as those just learning their way behind the wheel, will be told about ways they can help improve air quality and the harmful effects of vehicle emissions under HB331.",
+        "links": [{
+            "text": "ways they can help improve air quality",
+            "location": "https://www.deseretnews.com/article/900010254/renewing-drivers-license-bill-would-tell-you-about-improving-air-quality.html"
+        }, {
+            "text": "HB331",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0331.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Health care providers who fail to show patients seeking an abortion information already required under the law, including information about adoption, possible detrimental effects and probable fetal characteristics, will face misdemeanor charges under SB118.",
+        "links": [{
+            "text": "providers who fail to show patients seeking an abortion information",
+            "location": "https://www.deseretnews.com/article/900010905/senate-oks-bill-punishing-abortion-providers-for-not-giving-required-info.html"
+        }, {
+            "text": "SB118",
+            "location": "https://le.utah.gov/~2018/bills/static/SB0118.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Nearly $2.4 million will go toward ensuring 20 mental health crisis lines in the state are either available 24/7, 365 days a year or are automatically transferred to another crisis center that are, under HB41.",
+        "links": [{
+            "text": "mental health crisis lines",
+            "location": "https://www.deseretnews.com/article/900008671/utah-house-passes-hannahs-bill-to-ensure-suicide-crisis-lines-staffed-247.html"
+        }, {
+            "text": "HB41",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0041.html"
+        }]
+    }]
+}, {
+    "title": "My<br />Government",
+    "logo": "https://www.deseretnews.com/media/misc/interactive/2018-new-laws/icons/government.svg",
+    "sections": [{
+        "title": "",
+        "text": "The definition of nepotism will be expanded by HB133 to include someone who lives with a public official in addition to relatives, a result of the controversy that surrounded the late Salt Lake County Recorder Gary Ott.",
+        "links": [{
+            "text": "HB133",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0133.html"
+        }, {
+            "text": "result of the controversy",
+            "location": "https://www.deseretnews.com/article/900008714/lawmakers-considering-2-more-bills-related-to-gary-ott-controversy.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Another Ott-related bill, HB176, will allow a temporary manager to fulfill the duties of a vacant county office with limited authority until a county legislative body appoints an interim replacement.",
+        "links": [{
+            "text": "HB176",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0176.html"
+        }, {
+            "text": "will allow a temporary manager to fulfill the duties",
+            "location": "https://www.deseretnews.com/article/900008714/lawmakers-considering-2-more-bills-related-to-gary-ott-controversy.html"
+        }]
+    }, {
+        "title": "",
+        "text": "SB38, also resulting from Ott's struggle with dementia, establishes a process to remove an elected county official from office for mental incapacity.",
+        "links": [{
+            "text": "SB38",
+            "location": "https://le.utah.gov/~2018/bills/static/SB0038.html"
+        }, {
+            "text": "establishes a process to remove an elected county official from office",
+            "location": "https://www.deseretnews.com/article/900011272/bill-inspired-by-elected-officials-struggle-with-dementia-now-in-governors-hands.html"
+        }]
+    }]
+}, {
+    "title": "My<br />Qualify of Life",
+    "logo": "https://www.deseretnews.com/media/misc/interactive/2018-new-laws/icons/life.svg",
+    "sections": [{
+        "title": "",
+        "text": "Homemade food for sale at farmers markets and other locations may be exempted from some state and local regulations related to preparation, serving, use, consumption, or storage under HB181 if consumers are told it's from a private home.",
+        "links": [{
+            "text": "HB181",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0181.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Raw milk may be available in more places because of SB108, which makes it easier for small producers to sell up to 120 gallons a month and also permits the product to be sold from refrigerated trucks.",
+        "links": [{
+            "text": "Raw milk may be available in more places",
+            "location": "https://www.deseretnews.com/article/900010350/got-milk-committee-advances-bill-for-small-raw-milk-producers.html"
+        }, {
+            "text": "SB108",
+            "location": "https://le.utah.gov/~2018/bills/static/SB0108.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Drivers won't have to keep their vehicle registration in their cars or trucks if they are concerned about the personal information the document contains, although they are still encouraged to do so in HB161.",
+        "links": [{
+            "text": "Drivers won't have to keep their vehicle registration in their cars or trucks",
+            "location": "https://www.deseretnews.com/article/900010698/utah-lawmaker-brings-back-bill-to-end-auto-registration-requirements.html"
+        }, {
+            "text": "HB161",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0161.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Model year 2007 or newer diesel vehicles and those vehicles under 14,000 pounds will be subject to emissions testing in Utah County, just as other counties along the Wasatch Front already are, under a three-year pilot program approved in HB101.",
+        "links": [{
+            "text": "emissions testing in Utah County",
+            "location": "https://www.deseretnews.com/article/900011211/house-approves-diesel-emissions-testing-in-utah-county.html"
+        }, {
+            "text": "HB101",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0101.html"
+        }]
+    }]
+}, {
+    "title": "My<br />Safety",
+    "logo": "https://www.deseretnews.com/media/misc/interactive/2018-new-laws/icons/safety.svg",
+    "sections": [{
+        "title": "",
+        "text": "Law enforcement agencies will be prohibited from imposing quotas on police officers for issuing tickets or making arrests by HB154.",
+        "links": [{
+            "text": "prohibited from imposing quotas on police officers",
+            "location": "https://www.deseretnews.com/article/900011022/utah-senate-passes-ban-on-law-enforcement-ticket-quotas.html"
+        }, {
+            "text": "HB154",
+            "location": "https://le.utah.gov/~2018/bills/static/SB0154.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Police will have to obtain a warrant before blood can be drawn in a criminal investigation under HB43, passed in response to the controversial arrest of a University of Utah nurse who was trying to protect an unconcious patient.",
+        "links": [{
+            "text": "Police will have to obtain a warrant",
+            "location": "https://www.deseretnews.com/article/900008539/utah-house-passes-bill-requiring-police-to-get-warrant-before-blood-draw.html"
+        }, {
+            "text": "HB43",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0043.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Drone deliveries to inmates will be banned under HB59 to prevent drugs, cellphones, weapons and other counterband from being dropped within prison walls by the high-tech devices.",
+        "links": [{
+            "text": "Drone deliveries to inmates will be banned",
+            "location": "https://www.deseretnews.com/article/900009809/house-proposal-seeks-no-drone-zone-around-utah-prisons.html"
+        }, {
+            "text": "HB59",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0059.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Assisting in a suicide will become a second-degree felony crime under HB86, which expands the crime of manslaughter to include \"intentionally and knowingly\" providing someone with the physical means to commit suicide.",
+        "links": [{
+            "text": "Assisting in a suicide will become a second-degree felony",
+            "location": "https://www.deseretnews.com/article/900007018/utah-lawmaker-seeks-manslaughter-charge-for-assisted-suicide.html"
+        }, {
+            "text": "HB86",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0086.html"
+        }]
+    }, {
+        "title": "",
+        "text": "The state's Good Samaritan Law will be amended by HB152 to address civil immunity when force is used to rescue an unattended child who is confined in a vehicle.",
+        "links": [{
+            "text": "HB152",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0152.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Defendants convicted of an infraction or misdemeanor will have the option of performing compensatory service in lieu of paying a fine under HB248.",
+        "links": [{
+            "text": "HB248",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0248.html"
+        }]
+    }]
+}, {
+    "title": "My<br />Finances",
+    "logo": "https://www.deseretnews.com/media/misc/interactive/2018-new-laws/icons/finances.svg",
+    "sections": [{
+        "title": "",
+        "text": "Spouses of those serving in the military who are licensed as teachers or other professionals elsewhere won't need to obtain a Utah license to work in the state under SB227.",
+        "links": [{
+            "text": "won't need to obtain a Utah license",
+            "location": "https://www.deseretnews.com/article/900008563/utah-lawmakers-launch-series-of-pro-family-bills.html"
+        }, {
+            "text": "SB227",
+            "location": "https://le.utah.gov/~2018/bills/static/SB0227.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Consumer reporting agencies will no longer be able to charge fees for placing or removing a security freeze under HB45, which also makes downloading a mobile app for dealing with security freezes free.",
+        "links": [{
+            "text": "HB45,",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0045.html"
+        }, {
+            "text": "",
+            "location": ""
+        }]
+    }, {
+        "title": "",
+        "text": "HB241 limits the use of noncompete contracts in only broadcast media. The contracts, intended to prevent employees from going to work for a competitor, are limited to those working in the industry who make more than $47,500 a year.",
+        "links": [{
+            "text": "HB241",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0241.html"
+        }, {
+            "text": "noncompete contracts",
+            "location": "https://www.deseretnews.com/article/900014224/utah-gov-gary-herbert-reverses-previous-stance-signs-bill-targeting-broadcasters.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Employers who interfere with an employee's ability to seek workers' compensation benefits or retaliate against them once they've filed will face penalties under HB288.",
+        "links": [{
+            "text": "HB288",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0288.html"
+        }]
+    }]
+}, {
+    "title": "My<br />Schools",
+    "logo": "https://www.deseretnews.com/media/misc/interactive/2018-new-laws/icons/schools.svg",
+    "sections": [{
+        "title": "",
+        "text": "School will be permitted to install bolt locks on classroom doors for use during lockdowns under SB87, something that had been prohibited by building and fire codes.",
+        "links": [{
+            "text": "bolt locks on classroom doors",
+            "location": "https://www.deseretnews.com/article/900010447/bill-that-allows-schools-to-install-bolt-locks-to-barricade-classroom-doors-receives-final-passage.html"
+        }, {
+            "text": "SB87",
+            "location": "https://le.utah.gov/~2018/bills/static/SB0087.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Elementary schools will be able to have more counselors through a pilot program created by HB264 that provides matching funds to schools and creates an educator training program on the impacts of trauma on student learning.",
+        "links": [{
+            "text": "a pilot program",
+            "location": "https://www.deseretnews.com/article/900011366/bill-to-help-hire-more-school-counselors-moves-to-senate.html"
+        }, {
+            "text": "HB264",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0264.html"
+        }]
+    }, {
+        "title": "",
+        "text": "The sex education curriculum in public schools will include teaching about the harmful effects of pornography and refusal skills under HB286.",
+        "links": [{
+            "text": "sex education curriculum",
+            "location": "https://www.deseretnews.com/article/900010995/pornographys-harms-refusal-skills-key-components-of-revised-utah-sex-ed-bill.html"
+        }, {
+            "text": "HB286",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0286.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Property tax bills will go up under HB293, which freezes the state rate for five years to collect more money through rising property values and also helps to equalize education funding throughout the state.",
+        "links": []
+    }, {
+        "title": "",
+        "text": "The Utah State Board of Education will be required by SB194 to provide support to school districts or charter schools failing to meet the goal of 50 percent of students reading at or above grade level by the end of the third grade.",
+        "links": [{
+            "text": "SB194",
+            "location": "https://le.utah.gov/~2018/bills/static/SB0194.html"
+        }, {
+            "text": "failing to meet the goal",
+            "location": "https://www.deseretnews.com/article/900012041/utah-house-committee-approves-bill-to-raise-bar-for-early-elementary-school-reading.html"
+        }]
+    }]
+}, {
+    "title": "My<br />Miscellaneous",
+    "logo": "https://www.deseretnews.com/media/misc/interactive/2018-new-laws/icons/misc.svg",
+    "sections": [{
+        "title": "",
+        "text": "Utah will have a new state dinosaur — the Utahraptor — through SB43. The dinosaur, familiar to \"Jurassic Park\" fans, should not be confused with the state fossil, the Allosaurus.",
+        "links": [{
+            "text": "a new state dinosaur",
+            "location": "https://www.deseretnews.com/article/900009328/committee-approves-bill-naming-utahraptor-state-dinosaur.html"
+        }, {
+            "text": "SB43",
+            "location": "https://le.utah.gov/~2018/bills/static/SB0043.html"
+        }]
+    }, {
+        "title": "",
+        "text": "The state job of 'porn czar' was officially eliminated by HB50. The once high-profile position was created in 2000 but was cut from the budget in 2004.",
+        "links": [{
+            "text": "'porn czar' was officially eliminated",
+            "location": "https://www.deseretnews.com/article/900009203/no-more-porn-czar-in-utah.html"
+        }, {
+            "text": "HB50",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0050.html"
+        }]
+    }, {
+        "title": "",
+        "text": "Alkaline hydrolysis, a new \"green\" method of disposing of human remains through chemicals, heat and sometimes pressure that reduces the remains to a liquid, will be regulated under HB121.",
+        "links": [{
+            "text": "a new \"green\" method of disposing of human remains",
+            "location": "https://www.deseretnews.com/article/865674204/Thumbs-up-for-green-disposal-of-human-remains.html"
+        }, {
+            "text": "HB121",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0121.html"
+        }]
+    }, {
+        "title": "",
+        "text": "A committee created by HB444, will oversee replacing a statue of inventor Philo T. Farnsworth with one of Martha Hughes Cannon, the nation's first woman elected a state senator, to represent Utah in the U.S. Capitol's National Statuary Hall.",
+        "links": [{
+            "text": "HB444",
+            "location": "https://le.utah.gov/~2018/bills/static/HB0444.html"
+        }, {
+            "text": "Martha Hughes Cannon,",
+            "location": "https://www.deseretnews.com/article/900008483/utah-considers-placing-female-statue-in-nations-capitol-heres-why-that-matters-now.html"
+        }]
+    }, {
+        "title": "",
+        "text": "The penalty for holding a raccoon or coyote in captivity will be reduced from a class B misdemeanor to an infraction by SB180.",
+        "links": [{
+            "text": "SB180",
+            "location": "https://le.utah.gov/~2018/bills/static/SB0180.html"
+        }]
+    }]
+}]
