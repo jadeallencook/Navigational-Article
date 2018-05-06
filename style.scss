@@ -1,5 +1,6 @@
 div#navigational-fixed-toolbar {
     position: fixed;
+    z-index: 9999;
     bottom: 0px;
     background-color: #FFF;
     border-top: solid #000 thin;
@@ -36,13 +37,10 @@ div#navigational-fixed-toolbar {
             }
         }
     }
-    div.previous {
-        border-right: solid thin #000;
-    }
-    div.next {
-        border-left: solid thin #000;
-    }
     a.view-all {
+        img {
+            width: 50px;
+        }
         width: 50px;
         margin: 0px 15px;
     }
@@ -64,7 +62,7 @@ div#navigational-toolbar {
         div {
             display: inline-block;
             text-align: center;
-            margin: 0px 5px;
+            margin: 5px 5px;
             a:hover {
                 opacity: 0.5;
                 cursor: pointer;
@@ -116,14 +114,16 @@ div#navigational-content {
         margin: 25px 0px;
         text-align: left;
         div.icon-wrapper {
+            padding-right: 15px;
             div.icon {
                 background-color: #000;
                 text-align: left;
                 padding: 12px 15px 15px 15px;
                 box-sizing: border-box;
                 color: #FFF;
-                width: 75%;
-                max-width: 125px;
+                width: 90%;
+                max-width: 200px;
+                min-width: 150px;
                 border-radius: 15px;
                 margin: 0px auto;
                 font-weight: bold;
@@ -163,9 +163,6 @@ div#navigational-content {
                 }
                 span {
                     white-space: nowrap;
-                    br {
-                        display: none;
-                    }
                 }
             }
         }
@@ -190,6 +187,7 @@ div#navigational-content {
             div.icon-wrapper {
                 width: 90%;
                 margin: 15px auto;
+                padding: 0px;
                 div.icon {
                     height: 128px;
                     font-size: 1.5em;

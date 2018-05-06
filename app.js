@@ -9,7 +9,36 @@
         request.send();
     }).then(function (sections) {
 
-        var current = 0;
+        function visible(el) {
+            var top = el.offsetTop;
+            var left = el.offsetLeft;
+            var width = el.offsetWidth;
+            var height = el.offsetHeight;
+
+            while (el.offsetParent) {
+                el = el.offsetParent;
+                top += el.offsetTop;
+                left += el.offsetLeft;
+            }
+
+            return (
+                top < (window.pageYOffset + window.innerHeight) &&
+                left < (window.pageXOffset + window.innerWidth) &&
+                (top + height) > window.pageYOffset &&
+                (left + width) > window.pageXOffset
+            );
+        }
+
+        document.onscroll = function () {
+            var elem = document.getElementById('footer-full');
+            var toolbar = document.getElementById('navigational-fixed-toolbar');
+            if (elem) {
+                if (visible(elem)) toolbar.style.display = 'none';
+                else toolbar.style.display = 'block';
+            }
+        }
+
+        var current = sections.length;
 
         function addIconsToToolbar() {
             var container = document.querySelector('div#navigational-toolbar a');
@@ -42,7 +71,7 @@
                 previousImage = sections[num].logo;
             } else {
                 var num = current - 1;
-                previousLink = sections[current - 1].title.replace('<br />', '');
+                previousLink = sections[num].title.replace('<br />', '');
                 previousImage = sections[num].logo;
             }
             if (current === sections.length) {
@@ -50,19 +79,20 @@
                 nextImage = sections[0].logo;
             } else {
                 nextLink = sections[current].title.replace('<br />', '');
-                nextImage = sections[current].logo;
+                if (current === sections.length - 1) nextImage = sections[0].logo;
+                else nextImage = sections[current + 1].logo;
             }
             nextImageElem.setAttribute('src', nextImage);
             nextLinkElem.setAttribute('href', '#' + nextLink);
             nextLinkElem.onclick = function () {
-                if (current === sections.length - 1) current = 0;
+                if (current === sections.length) current = 0;
                 else current++;
                 addIconsToFixedToolbar();
             }
             previousImageElem.setAttribute('src', previousImage);
             previousLinkElem.setAttribute('href', '#' + previousLink);
             previousLinkElem.onclick = function () {
-                if (current === 0) current = sections.length - 1;
+                if (current === 0) current = sections.length;
                 else current--;
                 addIconsToFixedToolbar();
             }
@@ -95,7 +125,7 @@
                     pElem.appendChild(titleElem);
                     pElem.innerHTML += ' ' + content.text;
                     if (content.links && content.links.length > 0) {
-                        for (let z = 0; z < content.links.length; z++) {
+                        for (var z = 0; z < content.links.length; z++) {
                             var link = content.links[z];
                             var html = '<a target="_blank" href="' + link.location + '">' + link.text + '</a>';
                             pElem.innerHTML = pElem.innerHTML.replace(link.text, html);
@@ -114,6 +144,17 @@
         addSectionContent();
 
         if (document.querySelector('footer .container')) document.querySelector('footer .container').style.zIndex = 0;
+
+        for (var x = 0; x < document.querySelectorAll('a').length; x++) {
+            var link = document.querySelectorAll('a')[x];
+            if (link.getAttribute('href') && link.getAttribute('href')[0] === '#') {
+                link.addEventListener('click', function () {
+                    setTimeout(function () {
+                        window.scrollTo(window.scrollX, window.scrollY - 50);
+                    }, 10);
+                });
+            }
+        }
 
     });
 

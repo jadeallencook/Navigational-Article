@@ -1,5 +1,6 @@
 div#navigational-fixed-toolbar {
   position: fixed;
+  z-index: 9999;
   bottom: 0px;
   background-color: #FFF;
   border-top: solid #000 thin;
@@ -33,13 +34,11 @@ div#navigational-fixed-toolbar {
       div#navigational-fixed-toolbar div.previous a img,
       div#navigational-fixed-toolbar div.next a img {
         width: 75%; }
-  div#navigational-fixed-toolbar div.previous {
-    border-right: solid thin #000; }
-  div#navigational-fixed-toolbar div.next {
-    border-left: solid thin #000; }
   div#navigational-fixed-toolbar a.view-all {
     width: 50px;
     margin: 0px 15px; }
+    div#navigational-fixed-toolbar a.view-all img {
+      width: 50px; }
 
 div#navigational-toolbar h1 {
   text-align: center; }
@@ -54,7 +53,7 @@ div#navigational-toolbar a {
   div#navigational-toolbar a div {
     display: inline-block;
     text-align: center;
-    margin: 0px 5px; }
+    margin: 5px 5px; }
     div#navigational-toolbar a div a:hover {
       opacity: 0.5;
       cursor: pointer; }
@@ -95,21 +94,24 @@ div#navigational-content {
     grid-template-columns: 1fr 4fr;
     margin: 25px 0px;
     text-align: left; }
-    div#navigational-content a.section-wrapper div.icon-wrapper div.icon {
-      background-color: #000;
-      text-align: left;
-      padding: 12px 15px 15px 15px;
-      box-sizing: border-box;
-      color: #FFF;
-      width: 75%;
-      max-width: 125px;
-      border-radius: 15px;
-      margin: 0px auto;
-      font-weight: bold; }
-      div#navigational-content a.section-wrapper div.icon-wrapper div.icon img {
-        width: 75%;
-        display: block;
-        margin: 0px auto 15px auto; }
+    div#navigational-content a.section-wrapper div.icon-wrapper {
+      padding-right: 15px; }
+      div#navigational-content a.section-wrapper div.icon-wrapper div.icon {
+        background-color: #000;
+        text-align: left;
+        padding: 12px 15px 15px 15px;
+        box-sizing: border-box;
+        color: #FFF;
+        width: 90%;
+        max-width: 200px;
+        min-width: 150px;
+        border-radius: 15px;
+        margin: 0px auto;
+        font-weight: bold; }
+        div#navigational-content a.section-wrapper div.icon-wrapper div.icon img {
+          width: 75%;
+          display: block;
+          margin: 0px auto 15px auto; }
     div#navigational-content a.section-wrapper div.content-wrapper {
       border-left: solid medium black;
       padding-left: 25px;
@@ -129,8 +131,6 @@ div#navigational-content {
     height: 100px; }
   div#navigational-toolbar a div span {
     white-space: nowrap; }
-    div#navigational-toolbar a div span br {
-      display: none; }
 
   div#navigational-content {
     padding-bottom: 100px; }
@@ -148,7 +148,8 @@ div#navigational-content {
         padding: 0px 25px; }
       div#navigational-content a.section-wrapper div.icon-wrapper {
         width: 90%;
-        margin: 15px auto; }
+        margin: 15px auto;
+        padding: 0px; }
         div#navigational-content a.section-wrapper div.icon-wrapper div.icon {
           height: 128px;
           font-size: 1.5em;
