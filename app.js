@@ -14,13 +14,11 @@
             var left = el.offsetLeft;
             var width = el.offsetWidth;
             var height = el.offsetHeight;
-
             while (el.offsetParent) {
                 el = el.offsetParent;
                 top += el.offsetTop;
                 left += el.offsetLeft;
             }
-
             return (
                 top < (window.pageYOffset + window.innerHeight) &&
                 left < (window.pageXOffset + window.innerWidth) &&
@@ -30,11 +28,12 @@
         }
 
         document.onscroll = function () {
-            var elem = document.getElementById('footer-full');
+            var elem = document.getElementById('navigational-content');
+            var footer = document.getElementById('footer-full');
             var toolbar = document.getElementById('navigational-fixed-toolbar');
-            if (elem) {
-                if (visible(elem)) toolbar.style.display = 'none';
-                else toolbar.style.display = 'block';
+            if (elem && footer) {
+                if (visible(elem) && !visible(footer)) toolbar.style.display = 'block';
+                else toolbar.style.display = 'none';
             }
         }
 
@@ -46,6 +45,11 @@
             for (var x = 0; x < sections.length; x++) {
                 var section = sections[x];
                 var elem = document.createElement('div');
+                elem.onclick = function () {
+                    if ('ga' in window) {
+                        ga('send', 'event', 'New Laws', 'Icon Click', section.title.replace('<br />', ''));
+                    }
+                }
                 var icon = document.createElement('a');
                 icon.setAttribute('href', '#' + section.title.replace('<br />', ''));
                 var image = document.createElement('img');
@@ -85,6 +89,9 @@
             nextImageElem.setAttribute('src', nextImage);
             nextLinkElem.setAttribute('href', '#' + nextLink);
             nextLinkElem.onclick = function () {
+                if ('ga' in window) {
+                    ga('send', 'event', 'New Laws', 'Fixed Toolbar', nextLinkElem.getAttribute('href'));
+                }
                 if (current === sections.length) current = 0;
                 else current++;
                 addIconsToFixedToolbar();
@@ -123,7 +130,7 @@
                     var titleElem = document.createElement('b');
                     titleElem.innerText = content.title;
                     pElem.appendChild(titleElem);
-                    pElem.innerHTML += ' ' + content.text;
+                    pElem.innerHTML += '•  ' + content.text;
                     if (content.links && content.links.length > 0) {
                         for (var z = 0; z < content.links.length; z++) {
                             var link = content.links[z];

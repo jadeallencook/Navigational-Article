@@ -1,4 +1,5 @@
 div#navigational-fixed-toolbar {
+    display: none;
     position: fixed;
     z-index: 9999;
     bottom: 0px;
@@ -27,8 +28,8 @@ div#navigational-fixed-toolbar {
             text-align: center;
             padding: 12px 5px 5px 5px;
             box-sizing: border-box;
-            height: 75px;
-            width: 75px;
+            height: 50px;
+            width: 50px;
             border-radius: 15px;
             margin: 0px auto;
             display: block;
@@ -39,7 +40,7 @@ div#navigational-fixed-toolbar {
     }
     a.view-all {
         img {
-            width: 50px;
+            width: 35px;
         }
         width: 50px;
         margin: 0px 15px;
